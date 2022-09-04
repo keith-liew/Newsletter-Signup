@@ -10,6 +10,7 @@ client.setConfig({
 });
 
 const app = new express();
+const listID = "0ae8e2e658";
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -19,7 +20,7 @@ app.get("/", function (req, res) {
 })
 
 app.post("/", function (req, res) {
-    client.lists.batchListMembers("0ae8e2e658", {
+    client.lists.batchListMembers(listID, {
         members: [{
             email_address: req.body.email,
             status: "subscribed",
