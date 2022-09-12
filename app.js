@@ -9,8 +9,8 @@ const { response } = require("express");
 console.log(process.env.apiKey);
 
 client.setConfig({
-    apiKey: '09de1605f860a44b4de02d8eed0f5b4b-us14',
-    server: 'us14',
+    apiKey: process.env.MY_API_TOKEN,
+    server: process.env.SERVER,
 });
 
 const app = new express();
