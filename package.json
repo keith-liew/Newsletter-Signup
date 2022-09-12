@@ -11,6 +11,7 @@
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.78",
     "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "mailchimp-marketing": "^5.0.0",
     "request": "^2.88.2"
