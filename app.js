@@ -6,8 +6,6 @@ const request = new require("request");
 const client = require("@mailchimp/mailchimp_marketing");
 const { response } = require("express");
 
-console.log(process.env.apiKey);
-
 client.setConfig({
     apiKey: process.env.MY_API_TOKEN,
     server: process.env.SERVER,
@@ -35,11 +33,8 @@ app.post("/", function (req, res) {
         }],
     }).then(() => {
         res.sendFile(__dirname + "/success.html");
-        // res.send("Post received");
     }).catch((error) => {
         res.sendFile(__dirname + "/failure.html");
-        // console.log(error.response.body)
-        // console.log(error.response.body.detail)
     })
 
 });

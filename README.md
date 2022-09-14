@@ -2,6 +2,7 @@
 [What the project does](#project-description)
 [Technology Involved](#technology-involved)
 [Usage](#usage)
+[Lesson Learned](#lesson-learned)
 [Preview](#preview)
 
 # Project Description
@@ -29,6 +30,15 @@
     - SERVER=THE-SERVER-PREFIX-OF-YOUR-ACCOUNT(exmaple: "us1X")
 4. Run server: note app.js
 - NOTE: An alternative way to test the web app via [Heroku](https://polar-spire-64020.herokuapp.com/)
+
+# Lesson Learned
+- Understanding the outdated API documentation
+- And trying to implement the knowledge to the latest version API
+- Trial and error to send the request correctly and specifically
+- Experience in newsletter emailing service
+- Push local repository to heorku hosting
+- Experience in hosting website
+- Implementing dotenv package to hide sensitive information
 
 # Preview
 - Webpage
