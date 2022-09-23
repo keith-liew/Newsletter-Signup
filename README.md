@@ -1,9 +1,9 @@
 # Newsletter-Signup
-[What the project does](#project-description)
-[Technology Involved](#technology-involved)
-[Usage](#usage)
-[Lesson Learned](#lesson-learned)
-[Preview](#preview)
+[What the project does](#project-description) |
+[Technology Involved](#technology-involved) |
+[Usage](#usage) |
+[Lesson Learned](#lesson-learned) |
+[Preview](#preview) |
 
 # Project Description
 - A simple express web server that allow people to subsribe a email newsletter
@@ -40,10 +40,10 @@
 - Experience in hosting website
 - Implementing dotenv package to hide sensitive information
 
-### Side Note for **Heroku Firstimer**
+### Side Note for **Heroku Firstimer** (p.s. Heroku announced they will no longer provide free tier service)
 - Heroku is a hosting website that provide 5 projects for free per account
 1. How to deploy your express server on heroku?
-    - Go to [Heroku devcenter page](devcenter.heroku.com), choose the language that you used to develop your project. 
+    - Go to [Heroku devcenter page](https://devcenter.heroku.com), choose the language that you used to develop your project. 
     - Download the **Heroku CLI** regarding to your **operating system**.
 1. Then go to your ***cmd*** or command shell type the command
 heroku login
@@ -69,8 +69,8 @@ app.listen(process.env.PORT || 3000, function(){
     - add the command to run your server: `web: node app.js`
 
 1. In your command prompt cd to the project file directory
+    - getting start to initiate git
 ```
-getting start to initiate git
 git init
 git add .
 git commit -m "The message of this commit"
