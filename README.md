@@ -1,7 +1,6 @@
 # Newsletter-Signup
 > A simple express web server that allow people to subsribe a email newsletter
-> Live demo [Heroku](https://polar-spire-64020.herokuapp.com/) another alternative is ?. <!-- If you have the project hosted somewhere, include the link here. -->
-
+> Live demo [Heroku](https://polar-spire-64020.herokuapp.com/) another alternative is available on [Render](https://newsletter-signup-lh8y.onrender.com). Both is running on free-tier plan.
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
